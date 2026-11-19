@@ -1,7 +1,7 @@
 """Hand the finished front page to the scorer, byte for byte.
 
 entry.png beside this file is the whole entry: one picture that tells
-Thursday 19 November 2026 — 15 stories drawn, 18 briefs, a region strip, a
+Thursday 19 November 2026 — 15 stories drawn, 26 briefs, a region strip, a
 pin map and a date-check box. The scorer runs this program twice and
 expects identical bytes both times, so the program does one deterministic
 thing: copy the image, then verify the copy's hash against the source so a

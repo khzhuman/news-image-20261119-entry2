@@ -14,16 +14,16 @@
   .serif { font-family:"Noto Serif", "DejaVu Serif", serif; }
 
   /* ---------- masthead ---------- */
-  .masthead { background:#12222F; color:#F4EDDC; padding:8px 20px 6px 20px; }
+  .masthead { background:#12222F; color:#F4EDDC; padding:6px 20px 4px 20px; }
   .kick { display:flex; justify-content:space-between; font-size:11.5px; font-weight:700;
          letter-spacing:2.2px; color:#E8B34B; }
-  .date { font-size:43px; font-weight:700; text-align:center; line-height:1.04;
-          letter-spacing:.5px; margin-top:2px; }
-  .dateline { text-align:center; font-size:12.5px; color:#C9D4DA; margin-top:2px; }
+  .date { font-size:40px; font-weight:700; text-align:center; line-height:1.04;
+          letter-spacing:.5px; margin-top:1px; }
+  .dateline { text-align:center; font-size:12.5px; color:#C9D4DA; margin-top:0; }
   .dateline b { color:#F4EDDC; }
 
   /* ---------- region bar ---------- */
-  .regionbar { display:flex; height:28px; }
+  .regionbar { display:flex; height:25px; }
   .regionbar div { display:flex; align-items:center; justify-content:center;
     color:#fff; font-size:10.5px; font-weight:700; letter-spacing:.4px; white-space:nowrap; overflow:hidden; }
   .r-asia { background:#B4232A; } .r-amer { background:#0B7A55; } .r-eur { background:#1D4ED8; }
@@ -31,16 +31,16 @@
   .r-oce { background:#0284C7; }
 
   /* ---------- numbers strip ---------- */
-  .numbers { background:#22384A; color:#F4EDDC; font-size:11.5px; padding:4px 14px;
+  .numbers { background:#22384A; color:#F4EDDC; font-size:11.5px; padding:3px 14px;
     display:flex; align-items:center; gap:10px; }
   .numbers .lab { font-weight:700; color:#E8B34B; letter-spacing:1.2px; font-size:11.5px; white-space:nowrap; }
   .numbers .items { line-height:1.3; }
   .numbers b { color:#FFD97A; }
 
   /* ---------- hero cards ---------- */
-  .heroes { display:flex; gap:10px; padding:6px 14px 0 14px; }
+  .heroes { display:flex; gap:10px; padding:4px 14px 0 14px; }
   .hero { flex:1; background:#FFFDF6; border:2px solid #18242F; display:flex; flex-direction:column; }
-  .hero svg { display:block; width:100%; height:72px; }
+  .hero svg { display:block; width:100%; height:68px; }
   .hero .txt { padding:6px 11px 6px 11px; }
   .badge { display:inline-block; width:21px; height:21px; border-radius:50%; color:#fff;
     font-size:12.5px; font-weight:700; text-align:center; line-height:21px; vertical-align:2px; }
@@ -59,19 +59,19 @@
 <body>
 
 <div class="masthead">
-  <div class="kick"><span>ONE DAY &middot; ONE PICTURE &middot; EVERY LEAD STORY DRAWN</span><span>33 STORIES &middot; 7 REGIONS &middot; 15 DRAWN</span></div>
+  <div class="kick"><span>ONE DAY &middot; ONE PICTURE &middot; EVERY LEAD STORY DRAWN</span><span>41 STORIES &middot; 7 REGIONS &middot; 15 DRAWN</span></div>
   <div class="date serif">THURSDAY 19 NOVEMBER 2026</div>
   <div class="dateline">The whole day, told in pictures &mdash; <b>every story below happened, or was first reported, on this day</b>; anything older carries its day.</div>
 </div>
 
 <div class="regionbar">
-  <div class="r-asia" style="flex:8">ASIA 8</div>
-  <div class="r-amer" style="flex:8">AMERICAS 8</div>
-  <div class="r-eur" style="flex:6">EUROPE 6</div>
+  <div class="r-asia" style="flex:9">ASIA 9</div>
+  <div class="r-amer" style="flex:10.4">AMERICAS 11</div>
+  <div class="r-eur" style="flex:7">EUROPE 7</div>
   <div class="r-glob" style="flex:4">GLOBAL 4</div>
-  <div class="r-me" style="flex:3">MID EAST 3</div>
-  <div class="r-afr" style="flex:2">AFRICA 2</div>
-  <div class="r-oce" style="flex:2">OCEANIA 2</div>
+  <div class="r-me" style="flex:5">MID EAST 5</div>
+  <div class="r-afr" style="flex:3">AFRICA 3</div>
+  <div class="r-oce" style="flex:2.6">OCEANIA 2</div>
 </div>
 
 <div class="numbers">
@@ -139,29 +139,29 @@
   </div>
 </div>
 <style>
-  .cards { display:flex; gap:8px; padding:4px 14px 0 14px; }
+  .cards { display:flex; gap:8px; padding:3px 14px 0 14px; }
   .card { flex:1; background:#FFFDF6; border:1.6px solid #18242F; padding:5px 7px 5px 7px; }
-  .card svg { display:block; width:100%; height:28px; margin-bottom:3px; }
+  .card svg { display:block; width:100%; height:26px; margin-bottom:3px; }
   .card .badge { width:18px; height:18px; font-size:11px; line-height:18px; }
   .card .tag { font-size:10.5px; margin-left:3px; }
   .card h3 { font-size:13px; line-height:1.14; margin:2px 0 2px 0; }
-  .card p { font-size:10.6px; line-height:1.23; color:#2A3947; }
-  .bottom { display:flex; gap:12px; padding:6px 14px 0 14px; flex:1; }
-  .mapbox { width:472px; background:#FFFDF6; border:2px solid #18242F; padding:7px 9px 3px 9px; }
+  .card p { font-size:10.6px; line-height:1.20; color:#2A3947; }
+  .bottom { display:flex; gap:12px; padding:4px 14px 0 14px; flex:1; }
+  .mapbox { width:400px; background:#FFFDF6; border:2px solid #18242F; padding:7px 9px 3px 9px; }
   .mapbox h4, .alsobox h4 { font-size:12px; letter-spacing:1.4px; font-weight:700; }
   .mapbox h4 span, .alsobox h4 span { color:#8A6D1F; }
   .legend { font-size:10.5px; color:#435364; margin-top:2px; }
   .alsobox { flex:1; background:#FFFDF6; border:2px solid #18242F; padding:7px 10px 3px 10px; }
   .briefs { display:flex; gap:14px; margin-top:2px; }
   .briefs .col { flex:1; }
-  .brief { font-size:10.5px; line-height:1.18; margin-bottom:2px; }
+  .brief { font-size:10.5px; line-height:1.08; margin-bottom:1px; }
   .brief b { font-weight:700; }
   .brief .n { display:inline-block; min-width:17px; font-weight:700; color:#8A6D1F; }
   .brief .day { color:#8A6D1F; font-weight:700; }
-  .datecheck { margin:4px 14px 0 14px; border:2px dashed #B4232A; background:#FBEEE9;
-    padding:3px 10px; font-size:10.6px; line-height:1.28; }
+  .datecheck { margin:3px 14px 0 14px; border:2px dashed #B4232A; background:#FBEEE9;
+    padding:2px 10px; font-size:10.6px; line-height:1.24; }
   .datecheck b { color:#B4232A; letter-spacing:.6px; }
-  .footer { padding:3px 16px 3px 16px; font-size:11px; color:#435364; display:flex; justify-content:space-between; }
+  .footer { padding:2px 16px 2px 16px; font-size:11px; color:#435364; display:flex; justify-content:space-between; }
 </style>
 
 <div class="cards">
@@ -245,7 +245,7 @@
 <div class="bottom">
   <div class="mapbox">
     <h4>WHERE IT HAPPENED <span>&mdash; THE 15 DRAWN STORIES</span></h4>
-    <svg viewBox="0 0 460 205" style="display:block;width:100%;height:200px" preserveAspectRatio="xMidYMid meet">
+    <svg viewBox="0 0 460 205" style="display:block;width:100%;height:172px" preserveAspectRatio="xMidYMid meet">
       <rect width="460" height="205" fill="#DCE9EC"/>
       <g fill="#D8C9A3" stroke="#A68D4F" stroke-width="1">
         <path d="M3 18 L24 10 L48 6 L78 8 L104 10 L110 14 L103 24 L110 30 L124 24 L140 28 L148 38 L137 46 L130 50 L124 54 L124 62 L118 72 L115 75 L106 70 L96 72 L92 78 L92 86 L101 84 L103 92 L99 99 L108 103 L117 103 L105 97 L93 90 L84 86 L78 80 L68 72 L60 60 L56 46 L48 32 L38 24 L20 20 Z"/>
@@ -287,7 +287,7 @@
         <circle cx="446" cy="12" r="7.5" fill="#54626E"/><text x="446" y="16" fill="#fff">5</text>
       </g>
       <text x="446" y="30" font-size="10.5" font-weight="700" fill="#54626E" text-anchor="end">5 = DEEP SPACE</text>
-      <g fill="#435364"><circle cx="100" cy="56" r="2.2"/><circle cx="70" cy="58" r="2.2"/><circle cx="14" cy="24" r="2.2"/><circle cx="240" cy="72" r="2.2"/><circle cx="274" cy="82" r="2.2"/><circle cx="316" cy="84" r="2.2"/><circle cx="352" cy="88" r="2.2"/><circle cx="386" cy="158" r="2.2"/><circle cx="224" cy="52" r="2.2"/><circle cx="246" cy="42" r="2.2"/></g>
+      <g fill="#435364"><circle cx="100" cy="56" r="2.2"/><circle cx="70" cy="58" r="2.2"/><circle cx="14" cy="24" r="2.2"/><circle cx="240" cy="72" r="2.2"/><circle cx="274" cy="82" r="2.2"/><circle cx="316" cy="84" r="2.2"/><circle cx="352" cy="88" r="2.2"/><circle cx="386" cy="158" r="2.2"/><circle cx="224" cy="52" r="2.2"/><circle cx="246" cy="42" r="2.2"/><circle cx="288" cy="74" r="2.2"/><circle cx="250" cy="107" r="2.2"/><circle cx="240" cy="31" r="2.2"/></g>
     </svg>
     <div class="legend">Pins = the drawn stories, coloured by region &middot; dots = the briefs &middot; pin 5 = deep space</div>
   </div>
@@ -299,22 +299,30 @@
         <div class="brief"><span class="n">17</span><b class="t-asia">APEC</b> &mdash; Leaders&rsquo; joint declaration due today</div>
         <div class="brief"><span class="n">18</span><b class="t-asia">ASIA</b> &mdash; Canada and China warm their ties <span class="day">(Wed)</span></div>
         <div class="brief"><span class="n">19</span><b class="t-asia">INDIA</b> &mdash; India re-elected to the ITU Council <span class="day">(Wed)</span></div>
-        <div class="brief"><span class="n">20</span><b class="t-amer">US</b> &mdash; Tougher job rules proposed for green cards</div>
-        <div class="brief"><span class="n">21</span><b class="t-amer">US</b> &mdash; Liu Yunping, first Asian American to chair House Dem caucus</div>
-        <div class="brief"><span class="n">22</span><b class="t-amer">US</b> &mdash; Jeffries picked for Speaker <span class="day">(Wed)</span></div>
-        <div class="brief"><span class="n">23</span><b class="t-amer">US</b> &mdash; Nvidia earnings day <span class="day">(Tue)</span></div>
-        <div class="brief"><span class="n">24</span><b class="t-amer">US</b> &mdash; Fed minutes released <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">20</span><b class="t-asia">INDIA</b> &mdash; India beat Pakistan 2&ndash;1 in the SAFF final <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">21</span><b class="t-amer">US</b> &mdash; Tougher job rules proposed for green cards</div>
+        <div class="brief"><span class="n">22</span><b class="t-amer">US</b> &mdash; Liu Yunping, first Asian American to chair House Dem caucus</div>
+        <div class="brief"><span class="n">23</span><b class="t-amer">US</b> &mdash; Senators warn AI cyber threats are outpacing defences</div>
+        <div class="brief"><span class="n">24</span><b class="t-amer">US</b> &mdash; Report: Trump privately unhappy Vance did not back the Iran war, praised Rubio</div>
+        <div class="brief"><span class="n">25</span><b class="t-amer">US</b> &mdash; Jeffries picked for Speaker <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">26</span><b class="t-amer">US</b> &mdash; Nvidia earnings day <span class="day">(Tue)</span></div>
+        <div class="brief"><span class="n">27</span><b class="t-amer">US</b> &mdash; Fed minutes released <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">28</span><b class="t-amer">US</b> &mdash; Asif Merchant sentenced to 27.5 years over plot against US officials <span class="day">(Wed)</span></div>
       </div>
       <div class="col">
-        <div class="brief"><span class="n">25</span><b class="t-amer">ALASKA</b> &mdash; Peltola wins Alaska&rsquo;s Senate seat <span class="day">(Tue)</span></div>
-        <div class="brief"><span class="n">26</span><b class="t-eur">FRANCE</b> &mdash; Minister: M&eacute;lenchon could win the presidency</div>
-        <div class="brief"><span class="n">27</span><b class="t-eur">EUROPE</b> &mdash; EU&rsquo;s &euro;45bn Ukraine loan unveiled <span class="day">(Wed)</span></div>
-        <div class="brief"><span class="n">28</span><b class="t-eur">BLACK SEA</b> &mdash; Gas Husky tanker sank after projectile hits <span class="day">(Tue)</span></div>
-        <div class="brief"><span class="n">29</span><b class="t-eur">UKRAINE</b> &mdash; UN counts 372 civilians killed in October <span class="day">(Wed)</span></div>
-        <div class="brief"><span class="n">30</span><b class="t-glob">SCIENCE</b> &mdash; Earth is missing over a billion years of its rock history</div>
-        <div class="brief"><span class="n">31</span><b class="t-me">SAUDI</b> &mdash; Danger declared passed in three southern cities</div>
-        <div class="brief"><span class="n">32</span><b class="t-afr">LIBYA</b> &mdash; Cocaine and millions of pills seized</div>
-        <div class="brief"><span class="n">33</span><b class="t-oce">AUSTRALIA</b> &mdash; Canberra sanctions settler builders <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">29</span><b class="t-amer">ALASKA</b> &mdash; Peltola wins Alaska&rsquo;s Senate seat <span class="day">(Tue)</span></div>
+        <div class="brief"><span class="n">30</span><b class="t-eur">FRANCE</b> &mdash; Minister: M&eacute;lenchon could win the presidency</div>
+        <div class="brief"><span class="n">31</span><b class="t-eur">EUROPE</b> &mdash; EU&rsquo;s &euro;45bn Ukraine loan unveiled <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">32</span><b class="t-eur">LATVIA</b> &mdash; Saeima approves the Kulbergs cabinet <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">33</span><b class="t-eur">BLACK SEA</b> &mdash; Gas Husky tanker sank after projectile hits <span class="day">(Tue)</span></div>
+        <div class="brief"><span class="n">34</span><b class="t-eur">UKRAINE</b> &mdash; UN counts 372 civilians killed in October <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">35</span><b class="t-glob">SCIENCE</b> &mdash; Earth is missing over a billion years of its rock history</div>
+        <div class="brief"><span class="n">36</span><b class="t-me">SAUDI</b> &mdash; Danger declared passed in three southern cities</div>
+        <div class="brief"><span class="n">37</span><b class="t-me">GAZA</b> &mdash; WFP provides one hot meal every two days in camps <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">38</span><b class="t-me">HORMUZ</b> &mdash; Fourth tanker hit: Navig8 Messi catches fire after a mine strike, Iran says <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">39</span><b class="t-afr">LIBYA</b> &mdash; Cocaine and millions of pills seized</div>
+        <div class="brief"><span class="n">40</span><b class="t-afr">DR CONGO</b> &mdash; Rival peace bids fail <span class="day">(Wed)</span></div>
+        <div class="brief"><span class="n">41</span><b class="t-oce">AUSTRALIA</b> &mdash; Canberra sanctions settler builders <span class="day">(Wed)</span></div>
       </div>
     </div>
   </div>
